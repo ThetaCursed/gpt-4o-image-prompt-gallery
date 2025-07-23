@@ -1,10 +1,10 @@
 # GPT-4o Image Prompt Gallery - Organized, Searchable, and Offline
 
-![Main Tab](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOv-yqKbIZ5nmDSiXwEXDmHZlJh1Fgkk6Cq395MTmrhjbgCjxKMsKS0hXhK3jujVNjOL5Vf7mRv69CwLVooaHMRlY33gtR0ujoyVaBdDGVxLFtHHX1m9FdMcUoTNpUSDG0X9puBvxqdAmrKb5PsJfpYQfJhcs1yvnBPgSI3c3wD6Sy7DAoY_KoTX70VNc/s1600/main4.png)
+![Favorites Tab](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjV7PfDPk-pJU7TppRIlAYBXV8ql4kZ2LmvZQXUnZP2y91QrOrzKjrgTunNElmhoUQWqqjhd7Pv4fDQ5oc79Tf0m2i4dkWqhZZKW0NThOfr18Xvkh_a_2yZPCEkpftCljUf58S4Z1KA9p8xRT1TsAectbKO4nWLtRiyPw1IF53W08RoOAGKLe5igYlknmY/s1600/main3.png)
 
 Welcome to the **GPT-4o Image Prompt Gallery** – the ultimate tool for artists, designers, and creative minds who want to discover, organize, and save high-quality image prompts for AI art generation. With this gallery, you'll experience a seamless, privacy-focused, and responsive tool that works completely offline, with no accounts or internet required.
 
-![Favorites Tab](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjV7PfDPk-pJU7TppRIlAYBXV8ql4kZ2LmvZQXUnZP2y91QrOrzKjrgTunNElmhoUQWqqjhd7Pv4fDQ5oc79Tf0m2i4dkWqhZZKW0NThOfr18Xvkh_a_2yZPCEkpftCljUf58S4Z1KA9p8xRT1TsAectbKO4nWLtRiyPw1IF53W08RoOAGKLe5igYlknmY/s1600/main3.png)
+![Main Tab](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOv-yqKbIZ5nmDSiXwEXDmHZlJh1Fgkk6Cq395MTmrhjbgCjxKMsKS0hXhK3jujVNjOL5Vf7mRv69CwLVooaHMRlY33gtR0ujoyVaBdDGVxLFtHHX1m9FdMcUoTNpUSDG0X9puBvxqdAmrKb5PsJfpYQfJhcs1yvnBPgSI3c3wD6Sy7DAoY_KoTX70VNc/s1600/main4.png)
 
 ## 🎨 Why Choose GPT-4o Image Prompt Gallery?
 - **Private & Offline**: Your data stays on your device, ensuring privacy and control.
