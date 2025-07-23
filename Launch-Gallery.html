@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPT-4o Image Prompt Gallery</title>
+    <link rel="stylesheet" href="app/style.css">
+</head>
+<body data-theme="dark">
+    <header>
+        <div class="theme-switcher-container">
+            <label class="theme-switcher" for="theme-toggle" title="Toggle theme">
+                <input type="checkbox" id="theme-toggle" class="visually-hidden" checked>
+                <span class="slider"></span>
+            </label>
+        </div>
+        <h1>GPT-4o Image Prompt Gallery</h1>
+        <h4>🔍 Search, copy, and save your favorites — all in one place.</h4>
+        <br>
+        <p class="prompt-count-container">📌 Total Prompts: <span id="prompt-count">0</span></p>
+        <div class="author-attribution">by ThetaCursed</div> <!-- Добавляем метку авторства -->
+        <div class="controls-container">
+            <div class="search-container">
+                <input type="search" id="search-input" placeholder="Search prompts by keywords...">
+                <button id="blacklist-toggle-button" title="Toggle blacklist filter">🚫</button>
+            </div>
+        </div>
+        <div class="like-filter-container">
+            <label for="like-threshold-input" class="visually-hidden">Max likes:</label>
+            <input type="number" id="like-threshold-input" class="like-threshold-input" placeholder="Max likes">
+        </div>
+        <nav>
+            <div role="tablist" aria-label="Prompt Gallery">
+                <button id="tab-all" role="tab" aria-selected="true" aria-controls="gallery-container" class="tab active">All</button>
+                <button id="tab-favorites" role="tab" aria-selected="false" aria-controls="favorites-container" class="tab">Favorites</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Controls specific to the main page, like the card size slider -->
+    <div id="main-page-controls" class="main-page-controls">
+        <!-- Slider for card size on the main page -->
+        <div id="card-size-slider-container" class="card-size-slider-container">
+            <label for="card-size-slider" class="visually-hidden">Card Size</label>
+            <input type="range" id="card-size-slider" min="50" max="130" step="10" value="100" title="Adjust card size">
+        </div>
+    </div>
+
+    <main>
+        <div id="gallery-container" role="tabpanel" aria-labelledby="tab-all" class="grid-container"></div>
+        <div id="favorites-container" role="tabpanel" aria-labelledby="tab-favorites" class="favorites-view-container hidden">
+            <div class="favorites-header-row">
+                <div class="toggle-buttons-container">
+                <button id="toggle-folders-button" class="tab">📁 Hide Folders</button>
+                 <!-- New button to toggle card size -->
+                <button id="toggle-card-size-button" class="tab" title="Toggle card size">🤏 Cards Size </button>
+                </div>
+             <h2 id="active-folder-title" class="hidden"></h2>
+                <div class="favorites-io-controls">
+                    <button id="export-folder-prompts-button" class="io-button" title="Export folder prompts to TXT">📝</button>
+                    <button id="import-favorites-button" class="io-button" title="Load favorites from JSON">📂</button>
+                    <button id="export-favorites-button" class="io-button" title="Save favorites to JSON">💾</button>
+                </div>
+            </div>
+            <div class="favorites-main-content-area">
+                <div id="folders-panel"></div>
+                <div class="favorites-content-wrapper">
+                    <div id="favorites-grid" class="grid-container"></div>
+                    <!-- Message for when search/filter in favorites yields no results -->
+                    <p id="favorites-search-empty-message" class="empty-search-message hidden"></p>
+                </div>
+            </div>
+        </div>
+        <p id="empty-favorites-message" class="hidden">You haven't added anything to favorites yet. Click ⭐ on an image to save it here.</p>
+
+        <div id="loading-indicator" class="loading-indicator hidden" role="status" aria-live="polite">
+            <div class="spinner"></div>
+            <span>Loading...</span>
+        </div>
+    </main>
+
+    <div id="copy-toast" class="toast">Prompt copied!</div>
+
+    <button id="scroll-to-top-btn" class="scroll-to-top" title="Go to top">↑</button>
+
+    <script src="app/data.js"></script>
+    <script src="app/folders.js"></script>
+    <script src="app/favorites-search.js"></script>
+    <script src="app/blacklist.js"></script>
+    <script src="app/script.js"></script>
+</body>
+</html>
